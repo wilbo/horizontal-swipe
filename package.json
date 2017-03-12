@@ -1,0 +1,25 @@
+{
+  "name": "horizontal-swipe",
+  "version": "1.0.0",
+  "description": "horizontal swipe animation",
+  "author": "Wilbert Schepenaar <hello@wilbo.io>",
+  "repository": "https://github.com/wilbo/horizontal-swipe.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --inline --hot --port 3000",
+    "build": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "react-addons-test-utils": "^15.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

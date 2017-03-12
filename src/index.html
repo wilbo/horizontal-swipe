@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>horizontal swipe</title>
+  </head>
+  <style>
+
+  html, body {
+    height: 100%;
+  }
+
+  #container {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #container > div {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: red;
+  }
+
+  </style>
+  <body>
+
+    <!-- example container -->
+    <div id="container">
+    	<div>1 / 5</div>
+    	<div>2 / 5</div>
+    	<div>3 / 5</div>
+    	<div>4 / 5</div>
+    	<div>5 / 5</div>
+    </div>
+
+    <script src="main.min.js" charset="utf-8"></script>
+  </body>
+</html>
